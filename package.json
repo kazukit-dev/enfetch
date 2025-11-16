@@ -7,12 +7,17 @@
     "typecheck": "tsc --noEmit",
     "clean": "rimraf dist",
     "build": "clean && tsc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "check:format": "biome format ./src",
+    "check:lint": "biome lint ./src",
+    "fix:format": "biome format --write ./src",
+    "fix:lint": "biome lint --write ./src"
   },
   "author": "kazukit-dev",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@biomejs/biome": "2.3.5",
     "rimraf": "^6.1.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.9"
