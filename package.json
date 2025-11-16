@@ -1,0 +1,23 @@
+{
+  "name": "enfetch",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist",
+    "build": "clean && tsc",
+    "test": "vitest run"
+  },
+  "author": "kazukit-dev",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "rimraf": "^6.1.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.9"
+  },
+  "volta": {
+    "node": "22.21.1"
+  }
+}
