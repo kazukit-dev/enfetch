@@ -2,11 +2,11 @@
 
 ## Available Commands
 
-- `npm run fix:lint` - Lint files and apply safe fixes
-- `npm run fix:format` - Format code
-- `npm run test` - Run tests
-- `npm run build` - Build the project
-- `npm run typecheck` - Run type checking
+- `pnpm fix:lint` - Lint files and apply safe fixes
+- `pnpm fix:format` - Format code
+- `pnpm test` - Run tests
+- `pnpm build` - Build the project
+- `pnpm typecheck` - Run type checking
 
 ## Code Style
 
