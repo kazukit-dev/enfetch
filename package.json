@@ -3,10 +3,28 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./timeout": {
+      "import": "./dist/timeout.js",
+      "types": "./dist/timeout.d.ts"
+    },
+    "./retry": {
+      "import": "./dist/retry.js",
+      "types": "./dist/retry.d.ts"
+    }
+  },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "clean": "rimraf dist",
-    "build": "clean && tsc",
+    "build": "npm run clean && tsc",
     "test": "vitest run",
     "check:format": "biome format ./src",
     "check:lint": "biome lint ./src",
@@ -15,7 +33,7 @@
   },
   "author": "kazukit-dev",
   "license": "ISC",
-  "description": "",
+  "description": "Web standard fetch wrapper",
   "devDependencies": {
     "@biomejs/biome": "2.3.5",
     "rimraf": "^6.1.0",

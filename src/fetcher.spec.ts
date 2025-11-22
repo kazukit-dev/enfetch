@@ -152,5 +152,3 @@ describe("createFetcher", () => {
 		expect(onError2).toHaveBeenCalledTimes(1);
 	});
 });
-
-// 自動コミットhookを書く

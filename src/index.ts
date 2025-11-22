@@ -1,5 +1,8 @@
 export { createFetcher } from "./fetcher.js";
-export { createRetryClient } from "./retry.js";
-export { timeout } from "./timeout.js";
 
-export * from "./types.js";
+export type {
+	Enfetch,
+	EnfetchPlugin as Plugin,
+	RetryContext,
+	RetryOptions,
+} from "./types.js";
