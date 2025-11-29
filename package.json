@@ -48,9 +48,6 @@
     "vitest": "^4.0.9"
   },
   "packageManager": "pnpm@10.6.5",
-  "volta": {
-    "node": "22.21.1"
-  },
   "engines": {
     "node": ">=20.3.0"
   }
