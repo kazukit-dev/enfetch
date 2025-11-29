@@ -1,6 +1,10 @@
 {
   "name": "@kazukit/enfetch",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kazukit-dev/enfetch.git"
+  },
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
