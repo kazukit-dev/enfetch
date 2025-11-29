@@ -1,6 +1,6 @@
 {
   "name": "@kazukit/enfetch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:kazukit-dev/enfetch.git"
